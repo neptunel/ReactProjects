@@ -1,0 +1,38 @@
+#container{
+    width: 400px;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+input{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.list{
+    margin: 15px 0;
+
+}
+.list > li{
+    margin-bottom:2px ;
+    background-color: rgb(168, 230, 209);
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.buton{
+    display: flex;
+    justify-content:center;
+    padding: 10px;
+}
+.buton>button{
+    padding: 5px;
+    width: 70px;
+}
